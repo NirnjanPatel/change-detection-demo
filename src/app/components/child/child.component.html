@@ -1,0 +1,18 @@
+<!-- <div class="child-container">
+    <h3> Child component </h3>
+    <pre>{{person | json}}</pre>
+</div>
+
+<div class="user-name">
+    <h4>userName : {{person.name}} </h4>
+    <h4>userName : {{userName}} </h4>
+</div>
+ -->
+
+
+<div class="child-container">
+    <h3>Child Component</h3>
+    <pre>{{ person | json }}</pre>
+    <p>User Name: {{ userName }}</p>
+    <button class="btn btn-primary" (click)="getUserName()">Refresh User Name</button>
+</div>
